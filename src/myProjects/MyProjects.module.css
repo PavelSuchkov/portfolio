@@ -1,0 +1,42 @@
+.projectsBlock {
+    min-height: 100vh;
+    background-color: #6b6e6e;
+    /*border: 1px solid black;*/
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #61ce42;
+    width: 80%;
+}
+
+.projectHeader {
+    display: flex;
+    height: 20%;
+    /*border: 1px solid black;*/
+    width: 100%;
+    justify-content: center;
+}
+
+.projectTitleWrapper {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+.projectContent {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+@media (max-width: 1004px) {
+    .projectContent {
+        justify-content: center;
+    }
+}
