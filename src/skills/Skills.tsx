@@ -13,9 +13,11 @@ export function Skills() {
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
                     <Skill title={'React'} description={'+++'}/>
-                    {/*<Skill title={'Redux'} description={'___'}/>*/}
+                    <Skill title={'Redux'} description={'___'}/>
                     <Skill title={'TypeScript'} description={'---'}/>
                     <Skill title={'HTML/CSS'} description={'!!!'}/>
+                    <Skill title={'Material UI'} description={'!!!'}/>
+                    <Skill title={'StoryBook'} description={'!!!'}/>
                 </div>
             </div>
         </div>)
