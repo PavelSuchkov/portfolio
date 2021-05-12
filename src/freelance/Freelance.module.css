@@ -2,12 +2,14 @@
     height: 30vh;
     margin: 0 auto;
     display: flex;
-    background-color: rgb(66, 70, 73);
+    /*background-color: rgb(66, 70, 73);*/
+    background-color: rgb(51, 55, 57);
 }
 
 .freelanceContainer {
     flex-direction: column;
     border: 1px solid #61ce42;
+    border-top: none;
     height: 80%;
     width: 80%;
     margin: 0 auto;
@@ -18,10 +20,10 @@
 
 .freelanceTitleContainer {
     display: flex;
-    border: 1px solid #61ce42;
+    /*border: 1px solid #61ce42;*/
     width: 100%;
     justify-content: center;
-    background-color: #474646;
+    /*background-color: #474646;*/
     color: aliceblue;
     font-size: large;
 }
@@ -29,9 +31,10 @@
 .HireMeContainer {
     display: flex;
     border: 1px solid #61ce42;
+    border-bottom: none;
     height: 70px;
     width: 200px;
-    background-color: #474646;
+    /*background-color: #474646;*/
     justify-content: center;
     align-items: center;
     color: aliceblue;

@@ -6,6 +6,7 @@
 }
 
 .projectContainer {
+
     display: flex;
     flex-direction: column;
     border: 1px solid #61ce42;
@@ -26,6 +27,7 @@
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: flex-start;
 
 }
 

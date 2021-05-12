@@ -1,6 +1,6 @@
 .footerBlock {
     display: flex;
-    height: 135px;
+    height: 30vh;
     background-color: rgb(51, 55, 57);
     margin: 0 auto;
     flex-direction: column;

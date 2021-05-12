@@ -10,14 +10,14 @@ export type ProjectItemPropsType = {
 export function ProjectItem(props: ProjectItemPropsType) {
 
     return (
-        <div className={style.itemsWrapper}>
-            <div className={style.item}>
-                <div className={style.topWrapper}>
-                        <button>See</button>
-                </div>
+        <div className={style.project}>
+            <div className={style.image}>
+                <a href="" className={style.viewBtn}>See</a>
+                {/*<div className={style.topWrapper}>*/}
+                {/*</div>*/}
             </div>
-            <div className={style.botWrapper}>
-                <div className={style.projectName}>{props.title}</div>
+            <div className={style.projectInfo}>
+                <div className={style.projectTitle}>{props.title}</div>
                 <div className={style.projectDescription}>{props.description}</div>
             </div>
         </div>
