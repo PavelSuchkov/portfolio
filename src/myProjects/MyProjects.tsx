@@ -3,8 +3,8 @@ import style from "./MyProjects.module.css";
 import styleContainer from './../common/styles/Container.module.css'
 import {ProjectItem} from "./projectItem/ProjectItem";
 
-
 export function MyProjects() {
+
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectContainer}`}>

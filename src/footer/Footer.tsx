@@ -14,9 +14,6 @@ export function Footer() {
                         <a href="" className={style.even}>2</a>
                         <a href="" className={style.odd}>3</a>
                         <a href="" className={style.even}>4</a>
-                        <a href="" className={style.odd}>5</a>
-                        <a href="" className={style.even}>6</a>
-                        <a href="" className={style.odd}>7</a>
                     </div>
                 </div>
             </div>

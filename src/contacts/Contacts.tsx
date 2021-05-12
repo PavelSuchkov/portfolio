@@ -18,7 +18,7 @@ export function Contacts() {
                     </form>
                 </div>
                 <div className={style.contactsButtonContainer}>
-                    <button>Send</button>
+                    <button type={"submit"}>Send</button>
                 </div>
             </div>
         </div>

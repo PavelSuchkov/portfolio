@@ -5,8 +5,6 @@ import styleContainer from './../common/styles/Container.module.css'
 
 export function Main() {
 
-
-
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>

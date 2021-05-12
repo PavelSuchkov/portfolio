@@ -1,4 +1,5 @@
 .projectsBlock {
+    display: flex;
     min-height: 100vh;
     background-color: #6b6e6e;
     /*border: 1px solid black;*/

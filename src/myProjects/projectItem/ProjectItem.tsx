@@ -1,5 +1,6 @@
 import React from "react";
-import style from "./ProjectItem.module.css"
+import style from "./ProjectItem.module.css";
+
 
 export type ProjectItemPropsType = {
     title: string
@@ -7,6 +8,7 @@ export type ProjectItemPropsType = {
 }
 
 export function ProjectItem(props: ProjectItemPropsType) {
+
     return (
         <div className={style.itemsWrapper}>
             <div className={style.item}>
