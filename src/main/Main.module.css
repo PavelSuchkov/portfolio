@@ -1,6 +1,6 @@
 .mainBlock {
     height: 100vh;
-    background-color: #6b6e6e;
+    background-color: rgb(66, 70, 73);
 }
 
 
@@ -9,7 +9,9 @@
     flex-direction: column;
     align-items: flex-start;
     width: 300px;
-    background-color: darkgray;
+    /*background-color: darkgray;*/
+    background-color: #717a80;
+
 }
 
 .photo {

@@ -1,8 +1,8 @@
 .freelanceBlock {
-    height: 40vh;
+    height: 30vh;
     margin: 0 auto;
     display: flex;
-    background-color: #6b6e6e;
+    background-color: rgb(66, 70, 73);
 }
 
 .freelanceContainer {

@@ -1,13 +1,13 @@
 .contactsBlock {
-    min-height: 100vh;
-    background-color: #6b6e6e;
+    min-height: 70vh;
+    background-color: rgb(66, 70, 73);
 }
 
 .contactsContainer {
     display: flex;
     flex-direction: column;
     border: 1px solid #61ce42;
-    height: 100vh;
+    height: 100%;
 }
 
 .contactTitleContainer {

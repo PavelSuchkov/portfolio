@@ -1,0 +1,27 @@
+.titleWrapper {
+    display: flex;
+    height: 50px;
+    min-width: 300px;
+    justify-content: center;
+    margin: 10px 0 30px;
+    position: relative;
+    border: #61ce42;
+}
+.titleWrapper h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    color: aliceblue;
+    text-transform: capitalize;
+    margin: 0;
+}
+.titleWrapper::before{
+    content: "";
+    position: absolute;
+    background-color: #61ce42;
+    width: 100px;
+    height: 1px;
+    bottom: 0;
+}
