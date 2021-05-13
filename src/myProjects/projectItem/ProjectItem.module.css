@@ -2,8 +2,8 @@
 .project {
     display: flex;
     border: 1px solid #61ce42;
-    width: 300px;
-    max-height: 300px;
+    width: 400px;
+    max-height: 350px;
     flex-direction: column;
     align-self: stretch;
     flex-wrap: nowrap;
@@ -14,10 +14,34 @@
     align-items: center;
     height: 80%;
     background-color: #3c3b3b;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image::before {
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.2;
 }
 .viewBtn {
-    background-color: #474646;
+    /*background-color:;*/
+    position: relative;
+    display: flex;
     padding: 10px 20px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    font-size: large;
+    font-weight: bold;
+    z-index: 1;
 }
 
 .projectInfo {
@@ -45,7 +69,7 @@
     /*background-color: #7e7a7a;*/
     /*margin-top: 5px;*/
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 12px;
     letter-spacing: 1px;
     margin: 5px 0 0;

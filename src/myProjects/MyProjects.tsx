@@ -3,8 +3,18 @@ import style from "./MyProjects.module.css";
 import styleContainer from './../common/styles/Container.module.css'
 import {ProjectItem} from "./projectItem/ProjectItem";
 import {Title} from "../common/components/title/Title";
+import socialNetworkIMG from "./../assets/image/social-network.jpg"
+import todoListIMG from "./../assets/image/TDL_2.jpg"
 
 export function MyProjects() {
+
+    const socialNetwork = {
+        backgroundImage: `url(${socialNetworkIMG})`
+    };
+
+    const ToDoList = {
+        backgroundImage: `url(${todoListIMG})`
+    }
 
     return (
         <div className={style.projectsBlock}>
@@ -13,8 +23,10 @@ export function MyProjects() {
                     <Title title={'My projects'}/>
                 </div>
                 <div className={style.projectContent}>
-                    <ProjectItem title={'title number 1'} description={'short description'}/>
-                    <ProjectItem  title={'title number 2'} description={'short description 2'}/>
+                    <ProjectItem style={socialNetwork} title={'Social network'}
+                                 description={'social network was created by React & Redux'}/>
+                    <ProjectItem style={ToDoList} title={'Todo List'}
+                                 description={"You'll never forget ur important things and events"}/>
                 </div>
             </div>
         </div>

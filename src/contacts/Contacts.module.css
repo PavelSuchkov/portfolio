@@ -61,4 +61,6 @@ h2 {
     font-size: large;
     color: aliceblue;
     border: 1px solid #61ce42;
+    border-bottom: none;
+    border-top: none;
 }

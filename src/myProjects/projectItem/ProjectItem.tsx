@@ -5,13 +5,14 @@ import style from "./ProjectItem.module.css";
 export type ProjectItemPropsType = {
     title: string
     description: string
+    style: {}
 }
 
 export function ProjectItem(props: ProjectItemPropsType) {
 
     return (
         <div className={style.project}>
-            <div className={style.image}>
+            <div className={style.image} style={props.style}>
                 <a href="" className={style.viewBtn}>See</a>
                 {/*<div className={style.topWrapper}>*/}
                 {/*</div>*/}
