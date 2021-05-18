@@ -7,11 +7,7 @@ export type ProjectItemPropsType = {
     description: string
     style: {}
 }
-
 export function ProjectItem(props: ProjectItemPropsType) {
-
-
-
     return (
         <div className={style.project}>
             <div className={style.image} style={props.style}>
