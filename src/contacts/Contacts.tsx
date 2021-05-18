@@ -9,9 +9,6 @@ export function Contacts() {
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contacts'}/>
-                {/*<div className={style.contactTitleContainer}>*/}
-                {/*    <h2 className={style.contactsTitle}>Contacts</h2>*/}
-                {/*</div>*/}
                 <div className={style.formContainer}>
                     <form action="" className={style.form}>
                         <input type="text" placeholder={'name'}/>
