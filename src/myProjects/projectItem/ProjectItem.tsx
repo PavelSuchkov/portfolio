@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./ProjectItem.module.css";
+import style from "./ProjectItem.module.scss";
 
 
 export type ProjectItemPropsType = {
@@ -7,6 +7,7 @@ export type ProjectItemPropsType = {
     description: string
     style: {}
 }
+
 export function ProjectItem(props: ProjectItemPropsType) {
     return (
         <div className={style.project}>

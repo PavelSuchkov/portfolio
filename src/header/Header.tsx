@@ -3,11 +3,13 @@ import style from './Header.module.css'
 import {Nav} from "../nav/Nav";
 
 
-export function Header () {
+export function Header() {
 
-    return(
+    return (
         <div className={style.header}>
-        <Nav/>
-    </div>)
+            <div className={style.navWrapper}>
+                <Nav/>
+            </div>
+        </div>)
 
 }
