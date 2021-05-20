@@ -8,6 +8,7 @@ export type TitlePropsType = {
 export function Title(props: TitlePropsType) {
 
     return (
+
         <div className={style.titleWrapper}>
             <h2>{props.title}</h2>
         </div>
