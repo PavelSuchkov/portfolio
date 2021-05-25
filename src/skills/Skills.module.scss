@@ -1,6 +1,8 @@
+@import "/src/common/styles/sass/variables";
+
 .skillsBlock {
     min-height: 100vh;
-    background-color: rgb(58, 62, 64);
+    background-color: $bgColorDark;
 
 }
 .skillsContainer {

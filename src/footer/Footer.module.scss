@@ -47,14 +47,14 @@
     border-bottom: none;
     font-size: large;
     color: $textColor;
-    background-color: #474646;
+    background-color: $bgColorLight;
 }
 .even {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 25%;
-    border: 1px solid #61ce42;
+    border: 1px solid $primaryColor;
     border-bottom: none;
     font-size: large;
     color: aliceblue;
