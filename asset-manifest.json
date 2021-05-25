@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eadd8807.chunk.css",
-    "main.js": "/portfolio/static/js/main.1e193884.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1e193884.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.6a74d9b3.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.6a74d9b3.js.map",
-    "static/js/2.8f154045.chunk.js": "/portfolio/static/js/2.8f154045.chunk.js",
-    "static/js/2.8f154045.chunk.js.map": "/portfolio/static/js/2.8f154045.chunk.js.map",
-    "static/js/3.2a87d71a.chunk.js": "/portfolio/static/js/3.2a87d71a.chunk.js",
-    "static/js/3.2a87d71a.chunk.js.map": "/portfolio/static/js/3.2a87d71a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1fe675ca.chunk.css",
+    "main.js": "/portfolio/static/js/main.df22b2f1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.df22b2f1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.664a195a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.664a195a.js.map",
+    "static/js/2.45975e08.chunk.js": "/portfolio/static/js/2.45975e08.chunk.js",
+    "static/js/2.45975e08.chunk.js.map": "/portfolio/static/js/2.45975e08.chunk.js.map",
+    "static/js/3.4d7c7e07.chunk.js": "/portfolio/static/js/3.4d7c7e07.chunk.js",
+    "static/js/3.4d7c7e07.chunk.js.map": "/portfolio/static/js/3.4d7c7e07.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.eadd8807.chunk.css.map": "/portfolio/static/css/main.eadd8807.chunk.css.map",
-    "static/js/2.8f154045.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8f154045.chunk.js.LICENSE.txt"
+    "static/css/main.1fe675ca.chunk.css.map": "/portfolio/static/css/main.1fe675ca.chunk.css.map",
+    "static/js/2.45975e08.chunk.js.LICENSE.txt": "/portfolio/static/js/2.45975e08.chunk.js.LICENSE.txt",
+    "static/media/TDL_2.50cd2a2c.jpg": "/portfolio/static/media/TDL_2.50cd2a2c.jpg",
+    "static/media/social-network.7e709882.jpg": "/portfolio/static/media/social-network.7e709882.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6a74d9b3.js",
-    "static/js/2.8f154045.chunk.js",
-    "static/css/main.eadd8807.chunk.css",
-    "static/js/main.1e193884.chunk.js"
+    "static/js/runtime-main.664a195a.js",
+    "static/js/2.45975e08.chunk.js",
+    "static/css/main.1fe675ca.chunk.css",
+    "static/js/main.df22b2f1.chunk.js"
   ]
 }
