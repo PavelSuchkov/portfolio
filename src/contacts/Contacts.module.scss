@@ -39,6 +39,7 @@ h2 {
     height: 250px;
     width: 100%;
     justify-content: space-around;
+    background-color: $bgColorDark;
 }
 .form input {
     height: 40px;
@@ -61,6 +62,7 @@ h2 {
     font-size: large;
     color: $textColor;
     border: 1px solid $primaryColor;
+    background-color: $bgColorDark;
     border-bottom: none;
     border-top: none;
 }

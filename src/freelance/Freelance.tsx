@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Freelance.module.css";
+import style from "./Freelance.module.scss";
 import {Title} from "../common/components/title/Title";
 
 export function Freelance() {
