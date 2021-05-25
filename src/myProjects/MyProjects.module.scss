@@ -1,12 +1,14 @@
+@import "../common/styles/sass/variables";
+
 .projectsBlock {
   display: flex;
   min-height: 100vh;
-  background-color: rgb(66, 70, 73);
+  background-color: $bgColorLight;
 
   .projectContainer {
     display: flex;
     flex-direction: column;
-    border: 1px solid #61ce42;
+    border: 1px solid $primaryColor;
     width: 80%;
 
     .projectHeader {

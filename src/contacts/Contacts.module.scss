@@ -1,3 +1,4 @@
+@import "./src/common/styles/sass/variables";
 .contactsBlock {
     min-height: 70vh;
     background-color: rgb(66, 70, 73);
@@ -6,27 +7,27 @@
 .contactsContainer {
     display: flex;
     flex-direction: column;
-    border: 1px solid #61ce42;
+    border: 1px solid $primaryColor;
     height: 100%;
 }
 
-.contactTitleContainer {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    background-color: #3c3b3b;
-    /*border: 1px solid black;*/
-    width: 250px;
-}
+//.contactTitleContainer {
+//    display: flex;
+//    justify-content: center;
+//    align-items: flex-end;
+//    background-color: white;
+//    /*border: 1px solid black;*/
+//    width: 250px;
+//}
 h2 {
-    color: white;
+    color: $textColor;
 }
 
 .formContainer {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid #61ce42;
+    border: 1px solid $primaryColor;
     width: 100%;
     max-width: 450px;
 }
@@ -34,7 +35,7 @@ h2 {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    //border: 1px solid black;
     height: 250px;
     width: 100%;
     justify-content: space-around;
@@ -55,12 +56,11 @@ h2 {
     display: flex;
     height: 50px;
     width: 200px;
-    background-color: #3c3b3b;
     justify-content: center;
     align-items: center;
     font-size: large;
-    color: aliceblue;
-    border: 1px solid #61ce42;
+    color: $textColor;
+    border: 1px solid $primaryColor;
     border-bottom: none;
     border-top: none;
 }

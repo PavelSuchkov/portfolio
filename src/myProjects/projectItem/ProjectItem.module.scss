@@ -1,7 +1,9 @@
 
+@import './../../common/styles/sass/variables';
+
 .project {
   display: flex;
-  border: 1px solid #61ce42;
+  border: 1px solid $primaryColor;
   width: 400px;
   max-height: 350px;
   flex-direction: column;
@@ -57,7 +59,7 @@
       font-size: 16px;
       letter-spacing: 1px;
       margin: 0 0 5px;
-      color: aliceblue;
+      color: $textColor;
       line-height: 1.2;
     }
 
@@ -68,7 +70,7 @@
       font-size: 12px;
       letter-spacing: 1px;
       margin: 5px 0 0;
-      color: aliceblue;
+      color: $textColor;
       line-height: 1.8;
     }
   }

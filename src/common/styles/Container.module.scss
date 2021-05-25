@@ -1,5 +1,7 @@
+@import './src/common/styles/sass/variables.scss';
+
 .container {
-    border: 1px solid #61ce42;
+    border: 1px solid $primaryColor;
     min-height: 70%;
     width: 80%;
     margin: 0 auto;
