@@ -1,8 +1,8 @@
 @import "../common/styles/sass/variables";
 
 .projectsBlock {
-  display: flex;
-  min-height: 100vh;
+  //display: flex;
+  //min-height: 100vh;
   background-color: $bgColorLight;
 
   .projectContainer {
@@ -20,7 +20,7 @@
 
     .projectContent {
       display: flex;
-      height: 80%;
+      //height: 80%;
       width: 100%;
       justify-content: space-around;
       flex-wrap: wrap;
