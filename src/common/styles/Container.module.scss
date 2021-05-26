@@ -1,18 +1,17 @@
 @import './src/common/styles/sass/variables.scss';
 
 .container {
-    border: 1px solid $primaryColor;
-    min-height: 70%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  border: 1px solid $primaryColor;
+  min-height: 70%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @media screen and (max-width: 772px) {
+    justify-content: center;
+
+  }
 }
 
-@media screen and (max-width: 772px) {
-    .container {
-        justify-content: center;
-    }
-}

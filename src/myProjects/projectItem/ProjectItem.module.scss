@@ -1,5 +1,5 @@
-
 @import './../../common/styles/sass/variables';
+@import './../../common/styles/sass/mixins';
 
 .project {
   display: flex;
@@ -56,23 +56,18 @@
 
     .projectTitle {
       height: 30%;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 16px;
+      @include text('Josefin Sans' sans-serif, 16px, 500, 1.2);
       letter-spacing: 1px;
       margin: 0 0 5px;
-      color: $textColor;
-      line-height: 1.2;
+
     }
 
     .projectDescription {
       height: 50%;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 200;
-      font-size: 12px;
+      @include text('Poppins' sans-serif, 12px, 200, 1.8);
       letter-spacing: 1px;
       margin: 5px 0 0;
-      color: $textColor;
-      line-height: 1.8;
+
     }
   }
 }
