@@ -24,9 +24,11 @@ export function MyProjects() {
                 </div>
                 <div className={style.projectContent}>
                     <ProjectItem style={socialNetwork} title={'Social network'}
-                                 description={'social network was created by React & Redux'}/>
+                                 description={'social network was created by React & Redux'}
+                                 href={'https://pavelsuchkov.github.io/social_network_by-TS/'}/>
                     <ProjectItem style={ToDoList} title={'Todo List'}
-                                 description={"You'll never forget ur important things and events"}/>
+                                 description={"You'll never forget ur important things and events"}
+                                 href={''}/>
                 </div>
             </div>
         </div>
